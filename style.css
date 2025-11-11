@@ -1,0 +1,18 @@
+#head1{
+    color: red; 
+    background-color: rgb(205, 205, 205);
+    width: 500px;
+    height: 400px;
+    margin: 100px 200px 300px 50px;
+    /* margin-top: 100px; */
+    padding: 10px 0px 0px 20px;
+    float: right;
+    border: 2px solid black;
+    border-radius: 5px 20px 5px 20px;
+}
+#head2{
+    color: blueviolet;
+}
+.head1{
+    color: palegreen;
+}
