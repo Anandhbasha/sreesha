@@ -1,0 +1,34 @@
+/* background */
+/* .container{
+    background-color: red;
+    height: 800px; */
+    /* background-image: url('./Images/images.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; */
+    /* background: linear-gradient(rgba(171, 18, 18, 0.391),rgba(77, 77, 152, 0.285),rgba(243, 243, 243, 0.366)), url('./Images/images.jpg') no-repeat; */
+    /* background-size: cover; */
+    /* background-position: right; */
+/* } */
+
+.container{
+    height: 300px;
+    width: 300px;
+    background-color: palegreen;
+    box-shadow: 1.5px 3px 2px 1px pink;
+}
+
+/* text properties */
+#para{
+    font-size: 1.3em;
+    font-weight: 500;
+    /* text-transform: uppercase; */
+    /* text-transform: capitalize; */
+    text-transform: lowercase;
+    /* text-decoration: line-through; */
+    text-shadow: 2px 2px rgb(229, 255, 0);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    line-height: 30px;
+    word-spacing: 15px;
+    letter-spacing: 5px;
+}
