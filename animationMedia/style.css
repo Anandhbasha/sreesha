@@ -1,0 +1,63 @@
+/* .box::before{
+    
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;   
+    transition: 3s ease; 
+} */
+.box:hover{
+    /* transform: translateY(20px); */
+    /* transform: scale(1.1); */
+    /* transform: rotate(35deg); */
+    /* transition: 3s ease; */
+}
+/* 
+a{
+    text-decoration: none;
+    color: black;
+}
+a::after{
+    height: 3px;
+    background-color: red;
+    border: 10px solid red;
+} */
+/* after before */
+
+
+
+/* key frames
+ */
+
+.box{
+    animation: bgChange 10s ease infinite;
+    width: 100px;
+    height: 100px;
+    opacity: 1;
+}
+
+@keyframes bgChange {
+    0%{
+        background-color: black;
+    }
+    25%{
+        background-color: green;
+    }
+    50%{
+        background-color: aqua;
+    }
+    75%{
+        background-color: peru;
+    }
+    100%{
+        background-color: yellow;
+    }
+}
+
+
+@media screen and (min-width:700px) {
+    h1{
+        display: none;
+    }
+}
